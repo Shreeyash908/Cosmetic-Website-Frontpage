@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News and About Us</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 20px;
+      flex-wrap: wrap; /* Ensures responsiveness */
+    }
+
+    .news, .about-us {
+      flex: 1;
+      max-width: 48%; /* Adjusts the width of each section */
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .news h2, .about-us h2 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+
+    .news ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .news li {
+      margin-bottom: 10px;
+    }
+
+    .news li a {
+      text-decoration: none;
+      color: #333;
+      font-size: 1rem;
+    }
+
+    .news li a:hover {
+      text-decoration: underline;
+    }
+
+    .about-us p {
+      line-height: 1.6;
+      font-size: 1rem;
+      color: #555;
+    }
+
+    @media (max-width: 768px) {
+      .news, .about-us {
+        max-width: 100%; /* Full width for smaller screens */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- News Section -->
+    <div class="news">
+      <h2>Latest News</h2>
+      <ul>
+        <li><a href="#">News Title 1: Exciting Updates in the Industry</a></li>
+        <li><a href="#">News Title 2: Company Achieves Major Milestone</a></li>
+        <li><a href="#">News Title 3: Launch of New Product Line</a></li>
+        <li><a href="#">News Title 4: Community Events and Contributions</a></li>
+      </ul>
+    </div>
+
+    <!-- About Us Section -->
+    <div class="about-us">
+      <h2>About Us</h2>
+      <p>
+        Welcome to our company! We are dedicated to delivering exceptional products
+        and services to our customers. Our mission is to innovate and lead in our
+        industry while maintaining a commitment to quality and sustainability.
+      </p>
+      <p>
+        With years of experience and a passionate team, we strive to exceed
+        expectations and create lasting relationships with our clients and community.
+      </p>
+    </div>
+  </div>
+</body>
+</html>

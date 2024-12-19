@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Over Image</title>
+    <style>
+      .image-container {
+        position: relative;
+        width: 100%;
+      }
+
+      .image-container img {
+        width: 100%;
+        display: block;
+      }
+
+      .image-text {
+        position: absolute;
+        width: 275px;
+        top: 50%;
+        left: 25%;
+        transform: translate(-95%, -50%);
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .image-text-2 {
+        position: absolute;
+        width: 275px;
+        top: 50%;
+        left: 90%;
+        transform: translate(-95%, -50%);
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="image-container">
+          <img src="bgimg.jpeg" alt="Sample Image" />
+          <div class="image-text">
+            <h3>Our Mission</h3>
+            <p>
+              At RADIANT our purpose is to support and empower women to embrace
+              their raw & natural beauty. We focus on creating products that use
+              organic and natural ingredients to support and nourish the skin
+              the way Mother Earth intended.
+            </p>
+            <p>
+              The RADIANT difference is that we create products that work. We
+              use science backed ingredients that have been well researched for
+              their benefits and combine them with nutrient rich plant extracts
+              that feed that skin with vitamins and minerals.
+            </p>
+          </div>
+          <div class="image-text-2">
+            <h3>About Us</h3>
+            <p>RADIANT's foundation in Naturopathy isn't just part of our story it's the cornerstone of our brand's essence.
+            </p>
+            <p>
+                Being founded by a Naturopath and Herbalist ensures that our products are brought to life with the expertise, integrity, and care needed to truly understand how to holistically support the skin.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
